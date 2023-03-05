@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Russell M",
+    "lastName": "SoloheryNeslon",
+    "email": "nelson3445@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "09/09/1924"
+  },
+  "contact2": {
+    "firstName": "Thomas S.",
+    "lastName": "Monson",
+    "email": "thomas@gmail.c0m",
+    "favoriteColor": "white",
+    "birthday": "08/21/1927"
+  },
+  "contact3": {
+    "firstName": "Gordon B",
+    "lastName": "Hinckley",
+    "email": "hinkley2345@gmail.com",
+    "favoriteColor": "marron",
+    "birthday": "06/23/1910"
+  }
+}
