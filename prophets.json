@@ -1,7 +1,7 @@
 {
   "contact": {
     "firstName": "Russell M",
-    "lastName": "SoloheryNeslon",
+    "lastName": "Neslon",
     "email": "nelson3445@gmail.com",
     "favoriteColor": "Blue",
     "birthday": "09/09/1924"
@@ -19,5 +19,21 @@
     "email": "hinkley2345@gmail.com",
     "favoriteColor": "marron",
     "birthday": "06/23/1910"
+  },
+  "contact4": {
+    "firstName": "oward W.",
+    "lastName": "Hunter",
+    "email": "hunter2345@gmail.com",
+    "favoriteColor": "brown",
+    "birthday": "10/14/1907"
+  },
+  "contact5": {
+    "firstName": "Ezra Taft",
+    "lastName": "Benson",
+    "email": "ezra2345@gmail.com",
+    "favoriteColor": "lightblue",
+    "birthday": "08/04/1898"
   }
+
 }
+

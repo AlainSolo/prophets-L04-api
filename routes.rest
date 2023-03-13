@@ -21,11 +21,11 @@ content-type: application/json
 //after we get the Id from the created info, 
 //we copy and paste the Id right after the contacts in the url 
 ###
-PUT http://localhost:8080/contacts/640480b848f7ad48a7d194a7  HTTP/1.1
+PUT http://localhost:8080/contacts/64055ba7210dc5c52d4ba6ec  HTTP/1.1
 content-type: application/json
 
 {
-     "firstName": "SRom",
+     "firstName": "SRum",
     "lastName": "Tam",
     "email": "Sr3445@gmail.com",
     "favoriteColor": "Red",
@@ -37,4 +37,4 @@ content-type: application/json
 // anymore only the Id
 //we copy and paste the Id right after the DELETE URL
 ###
-DELETE  http://localhost:8080/contacts/640480b848f7ad48a7d194a7  HTTP/1.1
+DELETE  http://localhost:8080/contacts/64055ba7210dc5c52d4ba6ec  HTTP/1.1

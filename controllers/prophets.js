@@ -2,7 +2,7 @@ const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
 const getAll = async (req, res, next) => {
-  const result = await mongodb.getDb().db().collection('contacts').find();
+  const result = await mongodb.getDb().db().collection('prophets').find();
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
@@ -14,7 +14,7 @@ const getSingle = async (req, res, next) => {
   const result = await mongodb
     .getDb()
     .db()
-    .collection('contacts')
+    .collection('prophets')
     .find({ _id: userId });
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
@@ -67,7 +67,7 @@ const updateInfo = async (req, res) => {
   //In case to delete
   const deleteInfo = async (req, res) => {
     const infoId = new ObjectId(req.params.id);
-    const response = await mongodb.getDb().db().collection('contacts').remove({ _id: infoId }, true);
+    const response = await mongodb.getDb().db().collection('prophets').remove({ _id: infoId }, true);
   
 //The HTTP 204 means no Content success status response code indicates that a request has succeeded, 
 //but that the client doesn't need to navigate away from its current page.

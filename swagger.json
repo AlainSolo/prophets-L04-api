@@ -18,7 +18,7 @@
         "responses": {}
       }
     },
-    "/contacts/": {
+    "/prophets/": {
       "get": {
         "description": "",
         "produces": [
@@ -69,7 +69,7 @@
         }
       }
     },
-    "/contacts/{id}": {
+    "/prophets/{id}": {
       "get": {
         "description": "",
         "produces": [
